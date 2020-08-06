@@ -42,19 +42,42 @@ nav li a:hover {
 
 .products {
     background-image: url("../images/curve.png");
-    height: 100px;
+    max-height: 50px;
     background-size: cover;
     background-position: center top;
-    padding: 15%;
+    padding: 20%;
     display: flex;
 }
 
 .products-product {
     padding: 10px;
+    margin-top: -240px;
 }
 
 
 .products-product .products-product__content {
     background-color: white;
-    padding: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 9px 28px -3px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 9px 28px -3px rgba(0,0,0,1);
+    box-shadow: 0px 9px 28px -3px rgba(0,0,0,1);
+}
+.products-product__content-image {
+    text-align: center;
+}
+
+.products-product__content-button {
+    background-color: #7acc2d;
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.products-product__content-button:hover {
+    background-color: yellowgreen;
 }
