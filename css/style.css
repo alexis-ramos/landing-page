@@ -1,16 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/**--------Variables-------**/
+:root {
+    --green-color: #7acc2d;
+    --white-color: white;
+    --black-color: #313337;
+
+    /* Tipografia */
+    --normal:12px;
+
+    /* Espaciado */
+    --space: 10px;
+}
+/**--------Variables-------**/
+
+
 html,
 body {
     margin: 0px;
     padding: 0px;
-    font-size: 12px;
-    font-family: Helvetica;
+    font-size: var(--space);
+    font-family: 'Roboto', sans-serif;;
 }
 
 nav {
     display: flex;
-    background-color: #7acc2d;
-    padding: 10px;
-    color: white;
+    background-color: var(--green-color);
+    padding: var(--space);
+    color: var(--white-color);
     justify-content: space-between;
 }
 
@@ -25,12 +41,12 @@ nav li {
 }
 
 nav li a {
-    color: black;
+    color: var(--black-color);
     text-decoration: none;
 }
 
 nav li a:hover {
-    color: white;
+    color: var(--white-color);
 }
 
 /**-----------------------------------Main section ------------------**/
@@ -50,13 +66,13 @@ nav li a:hover {
 }
 
 .products-product {
-    padding: 10px;
+    padding: var(--space);
     margin-top: -240px;
 }
 
 
 .products-product .products-product__content {
-    background-color: white;
+    background-color: var(--white-color);
     padding: 15px;
     border-radius: 15px;
     -webkit-box-shadow: 0px 9px 28px -3px rgba(0,0,0,1);
@@ -68,11 +84,11 @@ nav li a:hover {
 }
 
 .products-product__content-button {
-    background-color: #7acc2d;
+    background-color: var(--green-color);
     width: 100%;
-    padding: 10px;
-    font-size: 12px;
-    color: white;
+    padding: var(--space);
+    font-size: var(--space);
+    color: var(--white-color);
     border: 0;
     cursor: pointer;
     border-radius: 2px;
