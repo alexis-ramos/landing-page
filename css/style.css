@@ -145,6 +145,31 @@ hr {
     font-size: 36px;
     font-family: 'Roboto', sans-serif;
 }
+.cards {
+    display: flex;
+    padding-bottom: 0px;
+    padding-bottom: 50px;
+}
+
+.cards-item {
+    background-color: var(--white-color);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.8);
+}
+
+
+.cards-item h1,p{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.cards-item__image img{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
 
 
 .footer {
